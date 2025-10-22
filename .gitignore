@@ -1,11 +1,31 @@
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
+*$py.class
+*.so
 .Python
 env/
 venv/
-.DS_Store
-*.log
+ENV/
+.venv
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/*.tfvars
+
+# SSH Keys
+*.pem
+jenkins_key
+jenkins_key.pub
+
+# IDEs
 .idea/
 .vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
